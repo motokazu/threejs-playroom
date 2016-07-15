@@ -1,0 +1,96 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "46F82FB3-1785-4786-AA2D-48C560F9DA82",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 0,
+			"height": 2,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false
+		},
+		{
+			"uuid": "076863C9-BADF-4F62-B410-1FB7CA18C500",
+			"type": "SphereBufferGeometry",
+			"radius": 2,
+			"widthSegments": 32,
+			"heightSegments": 16,
+			"phiStart": 0,
+			"phiLength": 6.283185307179586,
+			"thetaStart": 0,
+			"thetaLength": 3.141592653589793
+		},
+		{
+			"uuid": "F4698D72-6682-49F0-8D3D-04E96261B6EF",
+			"type": "PlaneBufferGeometry",
+			"width": 10,
+			"height": 10,
+			"widthSegments": 0,
+			"heightSegments": 0
+		}],
+	"materials": [
+		{
+			"uuid": "53898B4F-3B72-4375-8359-15897E7C85D1",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 16607065,
+			"opacity": 0.9,
+			"transparent": true
+		},
+		{
+			"uuid": "ADCB65A3-2D44-43D2-8BFA-BBA4178AABF9",
+			"type": "MeshStandardMaterial",
+			"color": 16774202,
+			"roughness": 0.5,
+			"metalness": 0.8,
+			"emissive": 16772110,
+			"opacity": 0.3
+		},
+		{
+			"uuid": "06B9D65D-356C-4AD5-8795-AEAB769EBF62",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 4815315
+		}],
+	"object": {
+		"uuid": "95C10B7D-5B35-4330-AAE7-8F1C50B37438",
+		"type": "Scene",
+		"name": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "1750849C-36CF-4F1E-9F08-3AF7EC2D591A",
+				"type": "Mesh",
+				"name": "Cylinder 1",
+				"matrix": [3,0,0,0,0,3,0,0,0,0,3,0,0,2.775712490081787,0,1],
+				"geometry": "46F82FB3-1785-4786-AA2D-48C560F9DA82",
+				"material": "53898B4F-3B72-4375-8359-15897E7C85D1"
+			},
+			{
+				"uuid": "D4A58EC0-891F-4954-9733-2BD33C78903C",
+				"type": "Mesh",
+				"name": "Sphere 2",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,7.113273620605469,0,1],
+				"geometry": "076863C9-BADF-4F62-B410-1FB7CA18C500",
+				"material": "ADCB65A3-2D44-43D2-8BFA-BBA4178AABF9"
+			},
+			{
+				"uuid": "6603F303-5021-4CE3-8CAF-A300A8DDF626",
+				"type": "Mesh",
+				"name": "Plane 3",
+				"matrix": [1,0,0,0,0,0.020794827491044998,-0.9997837543487549,0,0,0.9997837543487549,0.020794827491044998,0,0,0.16306979954242706,0,1],
+				"geometry": "F4698D72-6682-49F0-8D3D-04E96261B6EF",
+				"material": "06B9D65D-356C-4AD5-8795-AEAB769EBF62"
+			}]
+	}
+}
