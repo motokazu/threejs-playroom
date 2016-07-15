@@ -1,0 +1,22 @@
+{
+  "name": "threejs-playroom",
+  "version": "0.0.1",
+  "homepage": "https://github.com/motokazu/threejs-playroom",
+  "authors": [
+    "Motokazu Nishimura"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "three.js": "threejs#*"
+  }
+}
